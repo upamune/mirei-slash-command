@@ -5,7 +5,7 @@ import (
 
 	"github.com/kyokomi/goslash/goslash"
 	"github.com/kyokomi/goslash/plugins"
-	"github.com/kyokomi/goslash/plugins/echo"
+	"github.com/upamune/mirei-slash-command/src/plugins/echo"
 	"github.com/kyokomi/goslash/plugins/time"
 
 	"github.com/unrolled/render"
