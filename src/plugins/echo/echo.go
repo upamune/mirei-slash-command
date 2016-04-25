@@ -17,5 +17,5 @@ func New() plugins.Plugin {
 func (p *plugin) Do(req goslash.SlashCommandRequest) goslash.SlashCommandMessage {
 	_, args := req.CmdArgs()
 	args = append(args, "ぷり")
-	return goslash.NewInChannelMessage(strings.Join(args, ""))
+	return goslash.NewInChannelMessage(strings.Join(args, " "))
 }
